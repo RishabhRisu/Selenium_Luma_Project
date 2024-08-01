@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Project.ProjectLuma.MenDropDown"/>
+      <class name="Project.ProjectLuma.SelectProduct"/>
+      <class name="Project.ProjectLuma.InvalidSearch"/>
+      <class name="Project.ProjectLuma.HomePage"/>
+      <class name="Project.ProjectLuma.SortPrice"/>
+      <class name="Project.ProjectLuma.ChangePassword"/>
+      <class name="Project.ProjectLuma.SignOut"/>
+      <class name="Project.ProjectLuma.AddToCart"/>
+      <class name="Project.ProjectLuma.FooterTerms"/>
+      <class name="Project.ProjectLuma.ScrollPage"/>
+      <class name="Project.ProjectLuma.SortBy"/>
+      <class name="Project.ProjectLuma.SearchTheShirt"/>
+      <class name="Project.ProjectLuma.OrderHistory"/>
+      <class name="Project.ProjectLuma.DeleteToWishlist"/>
+      <class name="Project.ProjectLuma.Category"/>
+      <class name="Project.ProjectLuma.AddToWishlist"/>
+      <class name="Project.ProjectLuma.DeleteTheCart"/>
+      <class name="Project.ProjectLuma.WomenDropDown"/>
+      <class name="Project.ProjectLuma.LastNameChange"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
